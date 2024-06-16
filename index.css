@@ -109,3 +109,14 @@ th {
     margin-bottom: 10px;
     background-color: beige;
 }
+
+.footer {
+    width: 100%;
+    height: 40px;
+    background-color: beige;
+    margin-top: 10px;
+}
+.footer p{
+    text-align: center;
+    padding-top: 10px;
+}
