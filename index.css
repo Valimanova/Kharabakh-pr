@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 400px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/3c/Siege_of_Erivan_Fortress_on_1_October_1827.jpg);
+    background-size: cover;
+    background-position: 100%;
+    background-repeat: no-repeat;
+}
+.narbar{
+    width: 100%;
+    height: 200px;
+    background-color: transparent;
+}
+.nav-item{
+    font-size: 14px;
+    margin-left: 15px;
+    background-color: rgb(144, 144, 184);
+    border-radius: 30px;
+}
+.nav-item1{
+    background-color: orange;
+    font-size: 14px;
+    margin-left: 15px;
+    border-radius: 30px;
+}
+.head{
+    margin-top: 10px auto !important;
+    font-size: 40px;
+}
+
+table {
+    width: 50%; 
+    border-collapse: collapse; 
+    margin: 20px auto; 
+}
+th, td {
+    border: 1px solid black !important; 
+    padding: 8px;
+    text-align: center; 
+}
+th {
+    background-color: #f2f2f2;
+}
+.personal{
+    flex-wrap: wrap;
+}
+.personal-info{
+    width: 76%;
+}
+.personal-img{
+    width: 20%;
+    height: 160px;
+    border: 1px solid black;
+}
+
+.article, .personal{
+    width: 100%;
+    margin-bottom: 10px;
+    height: auto;
+}
+.section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.contact-form {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+.contact-form label {
+    font-weight: bold;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.contact-form textarea {
+    height: 120px;
+}
+.contact-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.contact-form button:hover {
+    background-color: #45a049;
+}
+
+.txt{
+    margin-left: 30px;
+    margin-top: 160px;
+    font-weight: 700;
+   font-size: 20px;
+   color: white;
+}
+.main{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    background-color: beige;
+}
